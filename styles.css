@@ -1,0 +1,209 @@
+body{
+    background-color: #fcefdf; /* #fcefdf; e  #f8f7fe */ 
+}
+
+a{
+    text-decoration:none;
+}
+
+span{
+    color: rgb(84, 84, 84);
+    
+
+}
+
+.divMenu{
+    background-color: #ddd6bb;
+    /*margin: -9px -8px 1px -9px ;  Margem para menu */
+
+    /* Menu Fixado topo da tela*/
+    width: 100%;
+    height: 8rem;
+    top: 0;
+    left: 0;
+    position: fixed; /* faz conque a div fique presa na tela quando descer com mouse*/
+    
+    display: flex;  /* faz que o div seja gerenciavel*/
+    align-items: center; /* alinha os itens na linha centralizado eixo horizontal*/
+    justify-content: space-around; /*alinha os item com vao igual centro  de 4rem e laterais com 1 rem*/
+    box-shadow: 0px 0px 5px rgb(61, 58, 58);
+}
+
+.imgLogo{
+    width: 5rem;
+    filter: drop-shadow(5px 5px 1px #fcefdf);
+}
+
+.imgLogoInsta{
+    width: 2rem;
+    filter: drop-shadow(5px 5px 1px #fcefdf);
+    
+}
+
+.nomeCliente{
+    width: 25rem;
+    height: 5.5rem;
+    filter: drop-shadow(3px 3px 1px #ffffff);
+}
+
+.carrosselImg{
+    margin-top: 10rem;
+    margin-inline: 2%;
+    gap: 1px;
+    width: 97%;
+    height: 32rem;
+    overflow-y: hidden;
+    overflow-x: auto;
+    display: flex;
+    
+}
+
+.divProjetos{
+    
+    font-size: 2.5rem; 
+    font-family: Arial Narrow, sans-serif; 
+    font-weight: 600; /* espesura da linha da letra maior mais negrito fica*/
+
+    margin-top: 2rem;
+
+    display: flex;
+    justify-content: center; /*alinhar item no centro da linha*/
+
+    text-shadow: 3px 3px 1px #ffffff; /*efeito sombra no texto*/
+    
+}
+.spantxtProjeto{
+    color: rgb(84, 84, 84);
+}
+
+.divMenuProjetos{
+    display: flex;
+    
+    
+    align-items: center; /* alinha os itens na linha centralizado eixo horizontal*/
+    justify-content: space-around; /*alinha os item com vao igual centro  de 4rem e laterais com 1 rem*/
+    margin-bottom: 3rem;
+}
+
+.divCardProjeto{
+    display: flex;
+    margin-top: 2rem;
+    margin-inline: 2%;
+    width: 13rem;
+    height: 20rem;
+    background-image: url('https://lh3.googleusercontent.com/pw/AP1GczNCEOlbqMqcgfewn-YazDvQqZej5faLzFWxLwJ-v7M4zYN-d3GWNjwmVoxlq1F1TpGtHiw2zn3HVsenKLBD8_ubZkYk8qsXx_o8VnYOSV1HJnPr3pg6tMUIJzKeRB0EDvVgw_r6myRAFvmoz75VQaA=w848-h869-s-no-gm?authuser=3');
+    background-repeat: no-repeat; /* nao repitir papel de parede*/
+    background-size: 350px; /*Tamanho o backgraud*/
+
+    box-shadow: 2px -3px 5px #a59d88;
+
+    border-image: fill 10 linear-gradient(rgba(255, 255, 255, 0.067), #fcefdf) ; /*Efeito degrade na imagem do card*/
+
+    align-items: flex-end ;
+
+}
+.txtCardProjeto{
+    color:#ffffff;
+    font-size: 2rem;
+    font-family: Arial Narrow, sans-serif;
+    text-shadow: 2px 2px 5px #000000; /*Sombra do texto*/
+    font-weight: 500; /* espesura da linha da letra maior mais negrito fica*/
+
+}
+
+.divRodape{
+    height: 200px;
+    border-top: solid #a59d88 1px ;
+    margin-inline: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #545454;
+   
+}
+
+.divInformacoesUm{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.imgRodapeLogoUm{
+    width: 4rem;
+    
+}
+.imgRodapeLogoDois{
+    width: 15rem;
+    height: 6rem;
+}
+
+.divMenuProjetosRodaPe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divPorjetosLista{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+
+.divRodapeEndereco{
+    
+    border: solid red 0px;
+    font-weight: 600;
+    
+
+}
+
+.divEndereco{
+    border: solid rgb(89, 0, 255) 0px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    
+    
+}
+.aEndereco{
+    
+    color: rgb(84, 84, 84);
+}
+.divEmail{
+    border: solid rgb(0, 255, 217) 0px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-block: 15px;
+}
+.divA-Email{
+   
+    color: rgb(84, 84, 84);
+}
+
+.divContato{
+    border: solid rgb(84, 84, 84) 0px;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+
+.divSpanContato{
+    color: rgb(84, 84, 84);
+    font-size: 17px;
+    font-weight: 500;
+}
+.divSpanNumero{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.divRedeSocial{
+    border: solid rgb(0, 255, 217) 0px;
+}
